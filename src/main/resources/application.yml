@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://192.168.50.211:3306/hospital_test_manager_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
